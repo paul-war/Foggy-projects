@@ -1,29 +1,31 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
+
 .postcard {
 	background-color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	font-family: "Indie Flower";
 }
 .postcard-header {
 	display: flex;
+	padding-top: 5%;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	padding-right: 1%;
 }
 .postcard-header h1 {
 	width: 350px;
-	margin: 0px;
+	margin: 5px;
+	padding-left: 1%;
 }
 .postcard-body {
 	display: flex;
+	font-family: "Indie Flower";
 }
 .body-left p:first-child {
 	margin-top: 0px;
@@ -34,8 +36,11 @@ body {
 }
 input {
 	border: none;
-	border-bottom: grey;
-	color: grey;
+	border-bottom: grey solid 1px;
+	color: lightgray;
+	font-family: "Indie Flower";
+	font-weight: bold;
+	font-size: 15px;
 }
 p {
 	font-size: medium;
@@ -44,6 +49,9 @@ p {
 	text-align: center;
 }
 button {
-	background-color: grey;
-	padding: 5px;
+	background-color: lightgrey;
+	padding: 3px 4px;
+	font-family: "Indie Flower";
+	font-weight: bold;
+	border: none;
 }
